@@ -44,6 +44,7 @@ header {
     font-weight: 600;
     font-size: 20px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 /* Main CSS */
@@ -68,7 +69,10 @@ main {
 
 .failor-details h2,
 .my-plans h2.section-title,
-.mindset-content h2 {
+.mindset-content h2,
+.b-understand h2.section-title,
+.understad-text h2
+{
     font-size: 40px;
     font-weight: 700;
 }
@@ -92,12 +96,35 @@ main {
 
 .my-plans {
     text-align: center;
+    background-color: rgb(225, 236, 255);
+    padding: 60px 20%;
+    margin: 0 -20%;
 }
 
 .plans {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+}
+
+/* Batter Understadn */
+.b-understand {
+    margin-top: 70px;
+}
+
+.b-understand h2.section-title {
+    text-align: center;
+}
+
+.understad-content {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.b-understand video {
+    height: 500px;
+    width: 70%;
 }
 
 /* Positive Mindset CSS */
