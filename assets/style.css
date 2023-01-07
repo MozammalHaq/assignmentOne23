@@ -7,7 +7,7 @@ body {
 
 /* header CSS */
 header {
-    background-image: url(../assets/images/banner.png);
+    background-image: url(images/banner.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -71,8 +71,7 @@ main {
 .my-plans h2.section-title,
 .mindset-content h2,
 .b-understand h2.section-title,
-.understad-text h2
-{
+.understad-text h2 {
     font-size: 40px;
     font-weight: 700;
 }
@@ -96,9 +95,9 @@ main {
 
 .my-plans {
     text-align: center;
-    background-color: rgb(225, 236, 255);
-    padding: 60px 20%;
-    margin: 0 -20%;
+    padding: 60px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .plans {
@@ -131,7 +130,7 @@ main {
 .positive-mindset {
     height: 300px;
     border-radius: 10px;
-    background-image: url(../assets/images/watch.png);
+    background-image: url(images/watch.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -140,7 +139,7 @@ main {
 }
 
 .positive-mindset::before {
-    background-image: url(../assets/images/gradient.png);
+    background-image: url(images/gradient.png);
     position: absolute;
     left: 0;
     top: 0;
