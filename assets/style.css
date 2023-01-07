@@ -7,7 +7,7 @@ body {
 
 /* header CSS */
 header {
-    background-image: url(/assets/images/banner.png);
+    background-image: url(../assets/images/banner.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -131,7 +131,7 @@ main {
 .positive-mindset {
     height: 300px;
     border-radius: 10px;
-    background-image: url(/assets/images/watch.png);
+    background-image: url(../assets/images/watch.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -140,7 +140,7 @@ main {
 }
 
 .positive-mindset::before {
-    background-image: url(/assets/images/gradient.png);
+    background-image: url(../assets/images/gradient.png);
     position: absolute;
     left: 0;
     top: 0;
